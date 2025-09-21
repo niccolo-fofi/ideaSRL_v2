@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@import './fonts.css';
+
+
+@layer base {
+  body {
+    @apply font-sans text-gray-900 bg-white;
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
