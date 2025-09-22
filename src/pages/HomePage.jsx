@@ -1,11 +1,12 @@
 import '../css/theme.css';
+import NavBar from '../components/NavBar';
 
 const HomePage = () => {
-    return (
-        <>
-            <h1 className='font-medium'>ciao</h1>
-        </>
-    );
+  return (
+    <>
+      <NavBar />  
+    </>
+  )
 }
 
 export default HomePage;
