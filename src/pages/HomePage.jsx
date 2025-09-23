@@ -4,8 +4,10 @@ import NavBar from '../components/NavBar.jsx';
 const HomePage = () => {
   return (
     <>
-    <NavBar></NavBar>
-    <div className='bg-gray-700 min-h-screen'></div>
+    
+    <div className='bg-gray-700 min-h-screen'>
+      <NavBar></NavBar>
+    </div>
     </>
   )
 }
